@@ -161,11 +161,15 @@ export const LanguageSelect = styled.span`
 `;
 
 export const MenuContainer = styled.div`
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: .5rem;
   background: #6937ff;
   margin-right: 1rem;
   border-radius: 4px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+  }
+
 `;
