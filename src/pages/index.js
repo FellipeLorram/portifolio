@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <SectionDivider />
       <Projects />
+      <SectionDivider />
     </Layout>
   );
 };

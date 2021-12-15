@@ -20,8 +20,7 @@ const GlobalStyles = createGlobalStyle`
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary};
     cursor: default;
-    overflow-y: hidden;
-
+    overflow: hidden;
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
@@ -41,6 +40,9 @@ const GlobalStyles = createGlobalStyle`
       line-height: 4.5rem;
       margin: 0;
     }
+  }
+  h2{
+    font-size: 6rem;
   }
   h3{
     font-size: 4rem;

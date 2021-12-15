@@ -16,6 +16,7 @@ export const Container = styled.div`
         width: 95%;
         overflow-y: auto;
         height: 100vh;
+        overflow-x: hidden;
     }
     @media ${(props) => props.theme.breakpoints.sm} {
         .side{

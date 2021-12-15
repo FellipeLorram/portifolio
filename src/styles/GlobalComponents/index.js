@@ -5,8 +5,7 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 100%;
-  max-height: 100vh;
+  min-height: 100vh;
   position: relative;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -27,6 +26,7 @@ export const SectionTitle = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm}{
+    margin-bottom: 8vh;
   }
 `
 
