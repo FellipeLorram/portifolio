@@ -21,5 +21,40 @@ export const projects = [
     right: false,
     color: '#b86fdc',
   },
+  {
+    title: 'Gireh Managment',
+    description: "Aplicativo de gerenciamento para rede de óticas Girêh.",
+    image: '/images/Gireh_Managment.png',
+    tags: ['Mongo', 'Express', 'Node', 'EJS'],
+    source: 'https://github.com/FellipeLorram/Gireh-Gerenciamento.git',
+    visit: '#',
+    id: 2,
+    right: true,
+    color: '#404040',
+  },
+  /*
+  
+  {
+    title: 'Site institucional Óticas Girêh',
+    description: "Site institucional, parte do projeto acima.",
+    image: '/images/Site-institucional-gireh.png',
+    tags: ['Mongo', 'Express', 'Node', 'EJS'],
+    source: 'https://github.com/FellipeLorram/SiteInstitucionalOticaGireh.git',
+    visit: 'https://site-institucional-otica-gireh.vercel.app/',
+    id: 1,
+    right: false,
+    color: '#404040',
+  },
+  {
+    title: 'Site institucional Óticas Girêh',
+    description: "Site institucional, parte do projeto acima.",
+    image: '/images/Site-institucional-gireh.png',
+    tags: ['Mongo', 'Express', 'Node', 'EJS'],
+    source: 'https://github.com/FellipeLorram/Projeto-Maker.git',
+    visit: 'https://projeto-maker-site.vercel.app/',
+    id: 1,
+    right: true,
+    color: '#404040',
+  },
+    */
 ];
-

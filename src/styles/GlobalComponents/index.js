@@ -20,9 +20,16 @@ export const SectionTitle = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 10rem;
   width: 100%;
+  padding-left: 10%;
 
-@media ${props => props.theme.breakpoints.md}{
+  .hero-text{
+    color: rgb(117, 115, 132);
+    font-size: 1.8rem;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
   }
 
   @media ${props => props.theme.breakpoints.sm}{

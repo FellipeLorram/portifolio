@@ -14,6 +14,7 @@ export const Layout = ({ children }) => {
       <div className="main">
         <Header />
         {children}
+        <Footer />
       </div>
     </Container>
   )

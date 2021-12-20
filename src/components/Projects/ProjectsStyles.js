@@ -2,19 +2,20 @@ import styled from 'styled-components';
 import { Section } from '../../styles/GlobalComponents';
 
 export const ProjectSection = styled(Section)`
-  padding-left: 15%;
+  padding: 5rem;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   gap: 10rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 1rem;
+    gap: 5rem;
   }
 
 `;
 
 export const ProjectContainer = styled.div`
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,6 +23,7 @@ export const ProjectContainer = styled.div`
   padding: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
+  height: 90vh;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0;
@@ -29,6 +31,7 @@ export const ProjectContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: unset;
 
   }
 `;
@@ -42,6 +45,7 @@ export const ProjectContainerInfo = styled.div`
   background: ${props => props.color};
   color: #fff;
   max-width: 50%;
+  height: 100%;
   padding: 5rem 4rem;
   gap: 3.5rem;
   border-radius: 20px;
@@ -130,6 +134,10 @@ export const ProjectContainerImage = styled.div`
     height: 100%;
     border-radius: 20px;
   }
+  :hover{
+      transform: scale(1.1);
+    }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
   }

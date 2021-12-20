@@ -42,10 +42,13 @@ const GlobalStyles = createGlobalStyle`
     }
   }
   h2{
-    font-size: 6rem;
+    font-size: 3.6rem;
   }
   h3{
     font-size: 4rem;
+  }
+  p{
+    font-size: 1.8rem;
   }
 `;
 

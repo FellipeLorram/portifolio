@@ -18,6 +18,18 @@ export const HeroSection = styled(Section)`
    }
   }
 
+  .hero-image{
+    position: absolute;
+    bottom: 8rem;
+    right: -5rem;
+    opacity: 0.5;
+    z-index:0;
+    svg{
+      transform: scale(0.6);
+    }
+
+  }
+
 `;
 
 export const MessageButton = styled.div`
@@ -73,6 +85,7 @@ export const LeftSide = styled.div`
   flex-direction: column;
   padding-left: 12%;
   gap: 3rem;
+  z-index:2;
   .text{
     text-align: left;
     line-height: 20px;

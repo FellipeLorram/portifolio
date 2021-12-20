@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { FreeLanceText, HeroSection, LeftSide, MessageButton, RigthSide } from './HeroStyles';
+import { FreeLanceText, HeroSection, LeftSide } from './HeroStyles';
 import Message from '../svg/Icons/Message';
+import HeroImage from '../svg/Images/HeroImage';
 
-const Hero = (props) => (
+const Hero = () => (
   <HeroSection>
     <LeftSide>
       <div className="text">
@@ -11,20 +12,14 @@ const Hero = (props) => (
         <p className="big">Meu objetivo é <b>transformar</b> a sua <b>idéia em ação</b></p>
       </div>
       <FreeLanceText>
-        Disponível para free-lance 
+        Disponível para free-lance
         <Message />
       </FreeLanceText>
     </LeftSide>
+    <div className="hero-image">
+      <HeroImage />
+    </div>
   </HeroSection>
 );
 
 export default Hero;
-
-/*
-      <div className="text">
-        <span className='small_text'>Olá, me chamo <b>Fellipe Lorram</b> e sou</span>
-        <br />
-        <span className='hero_text'>Desenvolvedor<br /> Web</span>
-        <br />
-      </div>
-*/

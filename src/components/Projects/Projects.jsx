@@ -15,6 +15,7 @@ const Projects = () => {
     <ProjectSection>
       <SectionTitle>
         <h2>Projetos</h2>
+        <p className="hero-text">Para mim, me esforçar 100% é o mínimo.</p>
       </SectionTitle>
       {projects.map((project) => (
         <ProjectContainer key={project.id}>
@@ -31,7 +32,7 @@ const Projects = () => {
                 <span key={tag} className="tag">{tag}</span>
               ))}
             </div>
-            <a href={project.source} className="source">
+            <a href={project.source} target="_blank" className="source">
               Source code
               <Code />
             </a>

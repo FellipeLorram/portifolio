@@ -45,7 +45,7 @@ const Header = () => {
             contato
           </span>
           <span className="message">
-            <Message></Message>
+            <Message />
           </span>
         </ContactLink>
       </NavLinkContainer>
